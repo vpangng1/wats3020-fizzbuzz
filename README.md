@@ -29,6 +29,32 @@ In order to successfully complete this project, you must accomplish the followin
 * Generate an array of FizzBuzz calculations using a `for` loop.
 * Output your FizzBuzz calculations using a `for ... of` loop.
 
+You can check your calculations against this example of calculations for the numbers 1&mdash;20:
+
+```
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+```
+
 ## Stretch Goals
 
-*
+* There are many ways to tighten this code. You can combine functions, initialize values in different ways, or enhance the algorithm to be more compact. Try to enhance the code in some way to make it fewer lines. (Note: This might result in a trade-off between easy readability and more tightly compacted code. Consider how you feel about that trade-off.)
+* This code could also be enhanced by breaking it out into re-usable functions, etc. Enhance the code by organizing it into more generic, re-usable components.

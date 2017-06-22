@@ -22,17 +22,25 @@ var isInteger,
 // TODO: If the value of `maxNumber` is suitable, then change the value of
 // `isInteger` so the `while` loop stops looping.
 
+// TODO: Initialize the `fbResults` variable to an empty Array
+
 // TODO: Create a `for` loop that will execute the `maxNumber` of times.
 
-// TODO: Create logic inside the `for` loop to calculate FizzBuzz. Store the
-// results of this logic in an array called `fbResults`.
+// TODO: Create logic inside the `for` loop to calculate FizzBuzz.  This will
+// require the use of several conditional statements that use the `%` operator.
+// Store the results of this logic in an array called `fbResults`.
 
-// TODO: Use a `for ... of` loop to concatenate the values in `fbResults`.
+// TODO: In preparation for creating the output text for your FizzBuzz results,
+// initialize the `fbText` variable to an empty string.
 
+// TODO: Use a `for ... of` loop to concatenate the values from `fbResults`
+// into the variable `fbText`.
 
 
 ///////////////////////////////////////////////////////////////////////
 // Do not edit below this line unless you are doing something fancy!
 //////////////////////////////////////////////////////////////////////
+let numDisplay = document.querySelector("#max-number");
+numDisplay.innerHTML = maxNumber;
 let output = document.querySelector("#output");
 output.innerHTML = fbText;
