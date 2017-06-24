@@ -56,5 +56,6 @@ Buzz
 
 ## Stretch Goals
 
+* Improve the conditionals that check the validity of the `maxNum` supplied by the user. Try to implement better messaging (perhaps using `alert()` commands) to let the user know what went wrong and how to correct the problem if they submit bad data.
 * There are many ways to tighten this code. You can combine functions, initialize values in different ways, or enhance the algorithm to be more compact. Try to enhance the code in some way to make it fewer lines. (Note: This might result in a trade-off between easy readability and more tightly compacted code. Consider how you feel about that trade-off.)
 * This code could also be enhanced by breaking it out into re-usable functions, etc. Enhance the code by organizing it into more generic, re-usable components.
