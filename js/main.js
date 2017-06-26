@@ -1,6 +1,6 @@
 /* Code for WATS 3020 FizzBuzz Assignment */
 
-var isInteger,
+let isInteger,
     maxNumber,
     fbResults,
     fbText;
