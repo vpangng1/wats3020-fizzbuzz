@@ -12,17 +12,15 @@ isInteger = false;
 
   while(!isInteger) {
   maxNumber = prompt("Enter an integer above 0");
-  maxNumber = parseInt(maxNumber);
+  maxNumber = parseFloat(maxNumber);
   if (Number.isSafeInteger(maxNumber) && maxNumber > 0) {
     isInteger = true;
+  } else if (isNaN(maxNumber)) {
+      alert(`Not a valid entry, please enter an integer above 0`);
   } else if (maxNumber < 0) {
-    alert(`${maxNumber} is not above 0, enter an integer above 0`);
-  } 
-    
-    /*else if (()) {
-    alert(`${maxNumber} is a fraction, please enter an integer above 0`); - this is where i need help with
-  } */ else {
-    alert(`${maxNumber} is not a valid entry, please enter an integer above 0`);
+      alert(`${maxNumber} is not above 0, enter an integer above 0`);
+  } else if (!Number.isSafeInteger(maxNumber)) {
+      alert(`${maxNumber} is a fraction, please enter an integer above 0`);
   }
 }
 
